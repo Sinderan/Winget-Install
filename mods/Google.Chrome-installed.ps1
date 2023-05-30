@@ -66,9 +66,9 @@ $CopyTo = ""
 #$File = "C:\dummy.txt"
 #$FindText = 'brown fox'
 #$ReplaceText = 'white fox'
-$File = ""
-$FindText = ''
-$ReplaceText = ''
+$File = "$env:ProgramFiles\Google\Chrome\Application\master_preferences"
+$FindText = '"allow_downgrade":false'
+$ReplaceText = '"allow_downgrade":false,"do_not_create_desktop_shortcut": true'
 
 #Grant "Modify" for directory/file to "Authenticated Users" - multiple: "dir1","dir2"
 $GrantPath = @("")
