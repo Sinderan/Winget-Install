@@ -27,7 +27,7 @@ $WingetIDUninst = @("")
 $AppUninst = @("")
 
 #Beginning of Desktop Link Name to Remove - optional wildcard (*) after, without .lnk, multiple: "lnk1","lnk2"
-$Lnk = @("VLC")
+$Lnk = @("VLC*")
 
 #Registry _value_ (DWord/String) to add in existing registry Key (Key created if not existing). Example:
 #$AddKey = "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Winget-AutoUpdate"
