@@ -1,0 +1,1 @@
+–no-qt-privacy-ask –no-qt-updates-notif
