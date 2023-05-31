@@ -1,0 +1,1 @@
+/mergetasks="!runcode,addcontextmenufiles,addcontextmenufolders,associatewithfiles,addtopath"
